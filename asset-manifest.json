@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/drawing-game/static/css/main.219489d0.css",
+    "main.js": "/drawing-game/static/js/main.cdf6e382.js",
+    "index.html": "/drawing-game/index.html",
+    "main.219489d0.css.map": "/drawing-game/static/css/main.219489d0.css.map",
+    "main.cdf6e382.js.map": "/drawing-game/static/js/main.cdf6e382.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.219489d0.css",
+    "static/js/main.cdf6e382.js"
+  ]
+}
