@@ -266,6 +266,7 @@ const Game = () => {
             currentUser={currentUser}
             currentWord={currentWord}
             gameState={gameState}
+            currentDrawer={currentDrawer}
           />
         </div>
         

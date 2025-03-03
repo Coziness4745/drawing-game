@@ -3,7 +3,7 @@ import { database } from '../firebase/config';
 import { ref, push, get, onValue, off, update } from 'firebase/database';
 import '../styles/ChatBox.css';
 
-const ChatBox = ({ roomId, currentUser, currentWord, gameState }) => {
+const ChatBox = ({ roomId, currentUser, currentWord, gameState, currentDrawer }) => {
   const [messages, setMessages] = useState([]);
   const [message, setMessage] = useState('');
   const messagesEndRef = useRef(null);
