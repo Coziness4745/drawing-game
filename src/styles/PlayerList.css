@@ -1,0 +1,78 @@
+.player-list {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .player-list-header {
+    padding: 0.75rem 1rem;
+    background-color: #4c84ff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .player-list-header h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .players-container {
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .player-item {
+    padding: 0.75rem;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    transition: background-color 0.2s ease;
+  }
+  
+  .player-item.current-drawer {
+    background-color: #e3f2fd;
+    border-left: 4px solid #4c84ff;
+  }
+  
+  .player-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .player-name {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .host-badge {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.4rem;
+    background-color: #ffd700;
+    color: #333;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  .drawer-badge {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.4rem;
+    background-color: #4c84ff;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  .player-score {
+    font-weight: 600;
+    color: #4c84ff;
+  }

@@ -1,0 +1,41 @@
+.timer {
+    background-color: white;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease;
+  }
+  
+  .timer-display {
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: monospace;
+  }
+  
+  .timer-normal .timer-display {
+    color: #4c84ff;
+  }
+  
+  .timer-warning .timer-display {
+    color: #ff9800;
+  }
+  
+  .timer-critical .timer-display {
+    color: #ff4d4d;
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
