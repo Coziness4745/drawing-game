@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/drawing-game/static/css/main.b2bfa8b9.css",
-    "main.js": "/drawing-game/static/js/main.5cd14f04.js",
+    "main.css": "/drawing-game/static/css/main.e4b07a17.css",
+    "main.js": "/drawing-game/static/js/main.3050a999.js",
     "index.html": "/drawing-game/index.html",
-    "main.b2bfa8b9.css.map": "/drawing-game/static/css/main.b2bfa8b9.css.map",
-    "main.5cd14f04.js.map": "/drawing-game/static/js/main.5cd14f04.js.map"
+    "main.e4b07a17.css.map": "/drawing-game/static/css/main.e4b07a17.css.map",
+    "main.3050a999.js.map": "/drawing-game/static/js/main.3050a999.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2bfa8b9.css",
-    "static/js/main.5cd14f04.js"
+    "static/css/main.e4b07a17.css",
+    "static/js/main.3050a999.js"
   ]
 }
